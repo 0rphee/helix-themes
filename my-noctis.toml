@@ -6,7 +6,7 @@
 ## GENERAL ==============================
 
 "warning" = { fg ="yellow", modifiers = ["bold"] } # Editor warnings.
-"error" = { fg = "red", modifiers = ["bold"] } # Editor errors, like mis-typing a command.
+"error" = { bg = "mid-green", fg = "red", modifiers = ["bold"] } # Editor errors, like mis-typing a command.
 "info" = { fg = "mid-blue", bg = "mid-green" } # Code diagnostic info in gutter (LSP).
 # ? Difference between info and hint ?
 "hint" = { fg = "light-green", modifiers = ["bold"] } # Code diagnostics hint in gutter (LSP).
@@ -185,7 +185,7 @@ light-green = "#48e9a7" # strings
 
 pink = "#df769b"
 yellow = "#ffd800"
-purple = "#6f60ea"
+purple = "#918cff"
 white = "#b1cace"
 orange = "#e4b782"
 gray = "#5b858b" # mainly for comments/background text
