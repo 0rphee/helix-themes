@@ -45,6 +45,10 @@
 'ui.statusline' = { fg = "light-green", bg = "autocomp-green"} # Status line.
 'ui.statusline.inactive' = { fg = "white", bg = "mid-green"} # Status line in unfocused windows.
 
+"ui.statusline.normal" = { fg = "dark-green", bg = "mid-blue", modifiers = [ "bold" ] }
+"ui.statusline.insert" = { fg = "dark-green", bg = "pink", modifiers = [ "bold" ] }
+"ui.statusline.select" = { fg = "dark-green", bg = "yellow", modifiers = [ "bold" ] }
+
 'ui.help' = { bg = "mid-green", fg = "white"} # `:command` descriptions above the command line.
 
 'ui.highlight' = { bg = "mid-green"} # selected contents of symbol pickers (spc-s, spc-S) and current line in buffer picker (spc-b).
@@ -123,7 +127,6 @@
 'tag' = { fg = "yellow"} # As in <body> for html.
 
 'namespace' = { fg = "mid-blue" } # * Namespace keyword in java, C#, etc.
-
 
 # Markup ==============================
 # Colors for markup languages, like Markdown or XML.
