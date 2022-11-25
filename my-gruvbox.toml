@@ -33,7 +33,7 @@
 "diff.delta" = "orange1"
 "diff.minus" = "red1"
 
-"warning" = { fg = "orange1", bg = "bg1" }
+"warning" = { fg = "yellow1", bg = "bg1" }
 "error" = { fg = "red1", bg = "bg1" }
 "info" = { fg = "aqua1", bg = "bg1" }
 "hint" = { fg = "blue1", bg = "bg1" }
@@ -55,7 +55,7 @@
 "ui.selection" = { fg = "bg0", bg = "yellow0" }
 # "ui.selection" = { bg = "bg3", modifiers = ["reversed"] }
 "ui.cursor.primary" = { modifiers = ["reversed"] }
-"ui.cursor.match" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "yellow1", modifiers = ["reversed"] }
 "ui.menu" = { fg = "fg1", bg = "bg2" }
 "ui.menu.selected" = { fg = "bg2", bg = "blue1", modifiers = ["bold"] }
 "ui.virtual.whitespace" = "bg2"
