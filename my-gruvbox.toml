@@ -20,7 +20,7 @@
 "function.macro" = "aqua1"
 "function.builtin" = "yellow1"
 "tag" = "red1"
-"comment" = { fg = "gray1", modifiers = ["italic"]  }
+"comment" = { fg = "gray1", modifiers = ["italic"] }
 "constant" = { fg = "purple1" }
 "constant.builtin" = { fg = "purple1", modifiers = ["bold"] }
 "string" = "green1"
@@ -42,6 +42,7 @@
 "ui.linenr" = { fg = "bg4" }
 "ui.linenr.selected" = { fg = "yellow1" }
 "ui.cursorline" = { bg = "bg1" }
+"ui.bufferline.active" = { underline = { color = "orange0", style = "line"} }
 "ui.statusline" = { fg = "fg1", bg = "bg2" }
 "ui.statusline.normal" = { fg = "fg1", bg = "bg2" }
 "ui.statusline.insert" = { fg = "fg1", bg = "blue0" }
