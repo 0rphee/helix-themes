@@ -51,6 +51,7 @@
 "ui.popup" = { bg = "bg1" }
 "ui.window" = { bg = "bg1" }
 "ui.help" = { bg = "bg1", fg = "fg1" }
+"ui.highlight" = { bg = "bg1" } # symbol picker highlighting
 "ui.text" = { fg = "fg1" }
 "ui.text.focus" = { fg = "fg1" }
 "ui.selection" = { fg = "bg0", bg = "yellow0" }
