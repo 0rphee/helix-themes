@@ -1,23 +1,10 @@
 inherits = "my-gruvbox"
 
-"border" = { fg = "fg0", bg = "fg0" }
-
 "ui.linenr.selected" = { fg = "yellow1", modifiers = ["bold"] }
-
-"ui.statusline" = { fg = "bg0", bg = "fg0", underline = { color = "orange1", style = "line"}  }
-"ui.statusline.normal" = { fg = "bg0", bg = "fg0"}
-"ui.statusline.insert" = { fg = "bg0", bg = "blue1", modifiers = ["italic"]}
-"ui.statusline.select" = { fg = "bg0", bg = "orange1", modifiers = ["italic"]}
-"ui.statusline.inactive" = { fg = "fg3", bg = "bg0", modifiers = ["underlined"]}
-"ui.statusline.separator" = { bg = "bg0" }
-
-"ui.bufferline" = { fg = "fg2", modifiers = ["underlined"] } 
-"ui.bufferline.active" = { fg = "fg0", bg = "bg1", modifiers = ["italic"], underline = { color = "orange1", style = "line"} } 
 
 "ui.selection" = { bg = "bg2" }
 "ui.selection.primary" = { bg = "bg3" }
 
-"ui.window" = { bg = "bg0" }
 
 [palette]
 bg0 = "#fbf1c7" # main background

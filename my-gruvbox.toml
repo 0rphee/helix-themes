@@ -3,15 +3,23 @@ inherits = "gruvbox"
 "punctuation" = { fg = "orange1", modifiers = ["bold"] }
 "operator" = { fg = "purple1", modifiers = ["bold"] } # Logical (&&, ||) and - I assume - Mathematical (+, %) operators
 
-"warning" = { fg = "yellow1", bg = "bg1" }
-"error" = { fg = "red1", bg = "bg1" }
-"info" = { fg = "aqua1", bg = "bg1" }
-"hint" = { fg = "blue1", bg = "bg1" }
+"warning" = { fg = "yellow1" }
+"error" = { fg = "red1" }
+"info" = { fg = "aqua1" }
+"hint" = { fg = "blue1" }
 
-"ui.bufferline.active" = { underline = { color = "orange1", style = "line"} } 
+"ui.statusline" = { fg = "bg0", bg = "fg0", underline = { color = "orange1", style = "line"}  }
+"ui.statusline.normal" = { fg = "bg0", bg = "fg0"}
+"ui.statusline.insert" = { fg = "bg0", bg = "blue1", modifiers = ["italic"]}
+"ui.statusline.select" = { fg = "bg0", bg = "orange1", modifiers = ["italic"]}
+"ui.statusline.inactive" = { fg = "fg0", bg = "bg0", modifiers = ["underlined"]}
+
+"ui.bufferline" = { fg = "fg0", modifiers = ["underlined"] } 
+"ui.bufferline.active" = { fg = "fg0", bg = "bg1", modifiers = ["italic"], underline = { color = "orange1", style = "line"} } 
+
+"ui.window" = { bg = "bg0" }
 
 "ui.selection" = { fg = "bg0", bg = "yellow0" }
-# "ui.selection" = { bg = "bg3", modifiers = ["reversed"] }
 "ui.cursor.primary" = { modifiers = ["reversed"] }
 "ui.cursor.match" = { fg = "fg2", modifiers = ["reversed"] }
 
