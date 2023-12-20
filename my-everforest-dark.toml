@@ -1,0 +1,15 @@
+inherits = "everforest_dark"
+
+"ui.background.separator" = "grey0"
+
+"diff.plus" =  { bg ="bg_green", fg = "green"}
+"diff.delta" = { bg ="bg_blue", fg = "blue"}
+"diff.minus" = { bg ="bg_red", fg = "red"}
+
+"ui.popup" = { bg = "bg2", fg = "yellow" }
+"ui.popup.info" = { bg = "bg2", fg = "blue" }
+
+"diagnostic.hint" = { bg = "bg_green", underline = { color = "green", style = "curl" } }
+"diagnostic.info" = { bg = "bg_blue", underline = { color = "blue", style = "curl" } }
+"diagnostic.warning" = { bg = "bg_yellow", underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { bg = "bg_red", underline = { color = "red", style = "curl" } }
