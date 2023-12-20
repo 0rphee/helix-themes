@@ -19,6 +19,9 @@ inherits = "gruvbox"
 
 "ui.window" = { bg = "bg0" }
 
+"ui.popup" = { bg = "bg1", fg = "orange1" }
+"ui.popup.info" = { bg = "bg1", fg = "purple1" }
+
 "ui.selection" = { fg = "bg0", bg = "yellow0" }
 "ui.cursor.primary" = { modifiers = ["reversed"] }
 "ui.cursor.match" = { fg = "fg2", modifiers = ["reversed"] }
