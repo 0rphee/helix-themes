@@ -8,6 +8,11 @@ inherits = "gruvbox"
 "info" = { fg = "aqua1" }
 "hint" = { fg = "blue1" }
 
+"diagnostic.warning" = { bg = "yellow_bg", underline = { color = "yellow1", style = "curl" } }
+"diagnostic.error" = { bg = "red_bg", underline = { color = "red0", style = "curl" } }
+"diagnostic.info" = { bg = "aqua_bg", underline = { color = "aqua0", style = "curl" } }
+"diagnostic.hint" = { bg = "blue_bg", underline = { color = "blue0", style = "curl" } }
+
 "ui.statusline" = { fg = "bg0", bg = "fg0", underline = { color = "orange1", style = "line"}  }
 "ui.statusline.normal" = { fg = "bg0", bg = "fg0"}
 "ui.statusline.insert" = { fg = "bg0", bg = "blue1", modifiers = ["italic"]}
@@ -26,4 +31,17 @@ inherits = "gruvbox"
 "ui.cursor.primary" = { modifiers = ["reversed"] }
 "ui.cursor.match" = { fg = "fg2", modifiers = ["reversed"] }
 
-"diagnostic.warning" = { underline = { color = "yellow1", style = "curl" } }
+"diff.plus" = { fg = "green1", bg = "green_bg" }
+"diff.delta" = { fg = "orange1", bg = "orange_bg" }
+"diff.minus" = { fg = "red1", bg = "red_bg" }
+
+[palette]
+
+red_bg = "#401413" # bg
+yellow_bg = "#574518"
+blue_bg = "#2f3d3c"
+aqua_bg = "#33462f"
+
+green_bg = "#404013"
+purple_bg = "#a5697b"
+orange_bg = "#572b10"
