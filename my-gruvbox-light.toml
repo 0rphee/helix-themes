@@ -1,4 +1,4 @@
-inherits = "my-gruvbox"
+inherits = "my-gruvbox-dark"
 
 "ui.linenr.selected" = { fg = "yellow1", modifiers = ["bold"] }
 
@@ -39,6 +39,11 @@ purple1 = "#b16386"
 aqua1   = "#689d6a"
 orange1 = "#d65d0e"
 
+red_bg = "#E3C3BD"
+yellow_bg = "#E3CB9E"
+blue_bg = "#8DA8A9"
+aqua_bg = "#9DB29E"
 
-
-
+green_bg = "#D7D7B7"
+purple_bg = "#C299AB"
+orange_bg = "#EFD1BD"
