@@ -1,6 +1,7 @@
 inherits = "everforest_light"
 
 "ui.background.separator" = "grey0"
+"ui.picker.header" = { bg = "bg_blue", modifiers = ["bold", "italic"] }
 
 "diff.plus" =  { bg ="bg_green", fg = "green"}
 "diff.delta" = { bg ="bg_blue", fg = "blue"}
