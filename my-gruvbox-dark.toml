@@ -13,14 +13,14 @@ inherits = "gruvbox"
 "diagnostic.info" = { bg = "aqua_bg", underline = { color = "aqua0", style = "curl" } }
 "diagnostic.hint" = { bg = "blue_bg", underline = { color = "blue0", style = "curl" } }
 
-"ui.statusline" = { fg = "bg0", bg = "fg0", underline = { color = "orange1", style = "line"}  }
+"ui.statusline" = { fg = "bg0", bg = "fg0" }
 "ui.statusline.normal" = { fg = "bg0", bg = "fg0"}
 "ui.statusline.insert" = { fg = "bg0", bg = "blue1", modifiers = ["italic"]}
 "ui.statusline.select" = { fg = "bg0", bg = "orange1", modifiers = ["italic"]}
 "ui.statusline.inactive" = { fg = "fg0", bg = "bg0", modifiers = ["underlined"]}
 
-"ui.bufferline" = { fg = "fg0", modifiers = ["underlined"] } 
-"ui.bufferline.active" = { fg = "fg0", bg = "bg1", modifiers = ["italic"], underline = { color = "orange1", style = "line"} } 
+# "ui.bufferline" = { fg = "fg0", modifiers = ["underlined"] } 
+# "ui.bufferline.active" = { fg = "fg0", bg = "bg1", modifiers = ["italic"], underline = { color = "orange1", style = "line"} }
 
 "ui.window" = { bg = "bg0" }
 
